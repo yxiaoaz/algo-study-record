@@ -40,7 +40,7 @@ def cut_rod(p, n):
     return max([p[i] + cut_rod(p, n-i) for i in range(1, n+1)])
 
 ```
-![alt text](images\rod_cutting_naive.png)
+![alt text](images\\rod_cutting_naive.png)
 The above tree shows all the function calls made when $n = 4$, where the number in a node is the value of the parameter $n$ in a function call.
 
 Generally the number of function calls of such a tree can be expressed as 
